@@ -1212,7 +1212,7 @@ class NavigatedWithinDocumentEvent {
       frameId: FrameId.fromJson(json['frameId'] as String),
       url: json['url'] as String,
       navigationType: NavigatedWithinDocumentEventNavigationType.fromJson(
-          json['navigationType'] as String),
+          json['navigationType'] as String? ?? 'other'),
     );
   }
 }
