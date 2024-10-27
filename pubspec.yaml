@@ -14,7 +14,7 @@ platforms:
   windows:
 
 environment:
-  sdk: '^3.3.0'
+  sdk: ^3.5.4
 
 dependencies:
   archive: ^3.0.0
